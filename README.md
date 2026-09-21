@@ -1,33 +1,33 @@
-# NLP Unit 1 Programs
+# NLP Programs using Python, NLTK and spaCy
 
-A collection of basic **Natural Language Processing (NLP)** practical programs implemented using **Python, NLTK, and spaCy**.
+A collection of practical **Natural Language Processing (NLP)** programs implemented using **Python, NLTK, spaCy, and Jupyter Notebook**.
 
-This repository contains six practical programs covering fundamental NLP techniques such as tokenization, stemming, lemmatization, stop-word removal, Part-of-Speech (POS) tagging, parsing, chunking, and Named Entity Recognition (NER).
+This repository contains practical programs covering fundamental NLP concepts from **CO1 and CO2**, including tokenization, stemming, lemmatization, stop-word removal, POS tagging, parsing, chunking, Named Entity Recognition, Bag of Words, TF-IDF, N-Grams, and Cosine Similarity.
 
 ---
 
 ## 📚 Programs Included
 
+### 🔹 CO1 – Fundamental NLP Techniques
+
 ### 1. Tokenization
 
 **Folder:** `01_Tokenization`
 
-Tokenization is the process of breaking text into smaller units called tokens, such as sentences and words.
-
-**Technologies Used:**
-
-- Python
-- NLTK
-- spaCy
+Demonstrates the process of breaking text into smaller units called tokens.
 
 **Concepts Covered:**
 
-- Sentence Tokenization
-- Word Tokenization
+* Sentence Tokenization
+* Word Tokenization
 
-**File:**
+**Technologies:**
 
-`tokenization.ipynb`
+* Python
+* NLTK
+* spaCy
+
+**File:** `tokenization.ipynb`
 
 ---
 
@@ -35,26 +35,20 @@ Tokenization is the process of breaking text into smaller units called tokens, s
 
 **Folder:** `02_Stemming_Lemmatization`
 
-This program demonstrates two techniques used to obtain the base or root form of words.
-
-**Stemming** removes word endings to obtain a root form. It may sometimes produce a non-dictionary word.
-
-**Lemmatization** converts a word into its meaningful dictionary base form.
-
-**Technologies Used:**
-
-- Python
-- NLTK Porter Stemmer
-- NLTK WordNet Lemmatizer
+Demonstrates techniques used to obtain the base or root form of words.
 
 **Concepts Covered:**
 
-- Porter Stemming
-- WordNet Lemmatization
+* Porter Stemming
+* WordNet Lemmatization
+* Difference between Stemming and Lemmatization
 
-**File:**
+**Technologies:**
 
-`stemming_lemmatization.ipynb`
+* Python
+* NLTK
+
+**File:** `stemming_lemmatization.ipynb`
 
 ---
 
@@ -62,28 +56,29 @@ This program demonstrates two techniques used to obtain the base or root form of
 
 **Folder:** `03_Stopword_Removal`
 
-Stop words are commonly occurring words that may provide little useful information for certain NLP tasks.
+Demonstrates the identification and removal of commonly occurring words that may provide limited information for certain NLP tasks.
 
-Examples include:
+**Examples:**
 
-`the`, `is`, `a`, `an`, `and`, `of`
-
-This program removes stop words from a given document using NLTK.
-
-**Technologies Used:**
-
-- Python
-- NLTK
+* `the`
+* `is`
+* `a`
+* `an`
+* `and`
+* `of`
 
 **Concepts Covered:**
 
-- Word Tokenization
-- Stop-word Identification
-- Stop-word Removal
+* Word Tokenization
+* Stop-word Identification
+* Stop-word Removal
 
-**File:**
+**Technologies:**
 
-`stopword_removal.ipynb`
+* Python
+* NLTK
+
+**File:** `stopword_removal.ipynb`
 
 ---
 
@@ -91,31 +86,29 @@ This program removes stop words from a given document using NLTK.
 
 **Folder:** `04_POS_Tagging`
 
-Part-of-Speech (POS) tagging assigns a grammatical category to each word in a sentence.
+Assigns grammatical categories to words in a sentence.
 
 **Examples:**
 
-- Noun
-- Verb
-- Adjective
-- Adverb
-- Preposition
-- Determiner
-
-**Technologies Used:**
-
-- Python
-- NLTK
+* Noun
+* Verb
+* Adjective
+* Adverb
+* Preposition
+* Determiner
 
 **Concepts Covered:**
 
-- Word Tokenization
-- POS Tagging
-- Grammatical Categories
+* Word Tokenization
+* POS Tagging
+* Grammatical Categories
 
-**File:**
+**Technologies:**
 
-`pos_tagging.ipynb`
+* Python
+* NLTK
+
+**File:** `pos_tagging.ipynb`
 
 ---
 
@@ -123,25 +116,23 @@ Part-of-Speech (POS) tagging assigns a grammatical category to each word in a se
 
 **Folder:** `05_Parsing_Chunking`
 
-This program demonstrates syntactic analysis using regular-expression-based chunking and dependency parsing.
+Demonstrates syntactic analysis using chunking and dependency parsing.
 
 **Concepts Covered:**
 
-- POS Tagging
-- Regular Expression Chunking
-- Noun Phrase Chunking
-- Dependency Parsing
-- Grammatical Relationships
+* POS Tagging
+* Regular Expression Chunking
+* Noun Phrase Chunking
+* Dependency Parsing
+* Grammatical Relationships
 
-**Technologies Used:**
+**Technologies:**
 
-- Python
-- NLTK
-- spaCy
+* Python
+* NLTK
+* spaCy
 
-**File:**
-
-`parsing_chunking.ipynb`
+**File:** `parsing_chunking.ipynb`
 
 ---
 
@@ -149,41 +140,131 @@ This program demonstrates syntactic analysis using regular-expression-based chun
 
 **Folder:** `06_Named_Entity_Recognition`
 
-Named Entity Recognition (NER) identifies and classifies important named entities from text.
+Identifies and classifies named entities from text.
 
 **Examples of Entities:**
 
-- Person
-- Organization
-- Location
-- Date
-- Money
-- Geopolitical Entity
-
-**Technologies Used:**
-
-- Python
-- spaCy
+* Person
+* Organization
+* Location
+* Date
+* Money
+* Geopolitical Entity
 
 **Concepts Covered:**
 
-- Named Entity Recognition
-- Entity Classification
-- Entity Labels
+* Named Entity Recognition
+* Entity Classification
+* Entity Labels
 
-**File:**
+**Technologies:**
 
-`ner.ipynb`
+* Python
+* spaCy
+
+**File:** `ner.ipynb`
+
+---
+
+# 🔹 CO2 – Text Vectorization and Similarity
+
+### 7. Bag of Words (BoW)
+
+**Folder:** `08_Bag_of_Words`
+
+Demonstrates the Bag of Words model for converting text documents into numerical feature vectors.
+
+**Concepts Covered:**
+
+* Vocabulary Creation
+* Term Frequency
+* Document-Term Matrix
+* Text Vectorization
+
+**Technologies:**
+
+* Python
+* Scikit-learn
+
+**File:** `bow.ipynb`
+
+---
+
+### 8. TF-IDF
+
+**Folder:** `09_TF_IDF`
+
+Demonstrates Term Frequency-Inverse Document Frequency (TF-IDF) for assigning importance to words in documents.
+
+**Concepts Covered:**
+
+* Term Frequency (TF)
+* Inverse Document Frequency (IDF)
+* TF-IDF Vectorization
+* Document-Term Matrix
+
+**Technologies:**
+
+* Python
+* Scikit-learn
+
+**File:** `tfidf.ipynb`
+
+---
+
+### 9. N-Gram Model
+
+**Folder:** `10_N_Gram`
+
+Demonstrates N-Gram models for analyzing sequences of words in text.
+
+**Concepts Covered:**
+
+* Unigram
+* Bigram
+* Trigram
+* N-Gram Generation
+
+**Technologies:**
+
+* Python
+* NLTK
+
+**File:** `ngram.ipynb`
+
+---
+
+### 10. Cosine Similarity
+
+**Folder:** `11_Cosine_Similarity`
+
+Demonstrates cosine similarity for measuring the similarity between text documents represented as numerical vectors.
+
+**Concepts Covered:**
+
+* Vector Representation
+* Dot Product
+* Vector Magnitude
+* Cosine Similarity
+* Text Similarity
+
+**Technologies:**
+
+* Python
+* Scikit-learn
+
+**File:** `cosine_similarity.ipynb`
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python 3
-- NLTK
-- spaCy
-- Jupyter Notebook
-- Natural Language Processing
+* Python 3
+* NLTK
+* spaCy
+* Scikit-learn
+* Jupyter Notebook
+* Natural Language Processing
 
 ---
 
@@ -194,7 +275,7 @@ Make sure Python is installed on your system.
 ### Install Required Libraries
 
 ```bash
-pip install nltk spacy
+pip install nltk spacy scikit-learn
 ```
 
 ### Download the spaCy English Language Model
@@ -207,14 +288,14 @@ python -m spacy download en_core_web_sm
 
 The required NLTK resources are downloaded by the respective notebooks.
 
-These include:
+These may include:
 
-- `punkt`
-- `punkt_tab`
-- `stopwords`
-- `averaged_perceptron_tagger_eng`
-- `wordnet`
-- `omw-1.4`
+* `punkt`
+* `punkt_tab`
+* `stopwords`
+* `averaged_perceptron_tagger_eng`
+* `wordnet`
+* `omw-1.4`
 
 ---
 
@@ -224,10 +305,10 @@ These programs are implemented as **Jupyter Notebooks (`.ipynb`)**.
 
 You can run them using:
 
-- Jupyter Notebook
-- JupyterLab
-- Google Colab
-- VS Code with the Jupyter extension
+* Jupyter Notebook
+* JupyterLab
+* Google Colab
+* VS Code with the Jupyter extension
 
 ### Start Jupyter Notebook
 
@@ -237,20 +318,12 @@ jupyter notebook
 
 Then open the required notebook and execute the cells sequentially.
 
-For example:
-
-```text
-01_Tokenization/tokenization.ipynb
-```
-
-Similarly, open the notebooks for the other NLP practicals.
-
 ---
 
 ## 📂 Repository Structure
 
 ```text
-NLP-Unit-1-Programs/
+NLP-programs-using-Python-NLTK-and-spaCy/
 │
 ├── 01_Tokenization/
 │   └── tokenization.ipynb
@@ -270,6 +343,18 @@ NLP-Unit-1-Programs/
 ├── 06_Named_Entity_Recognition/
 │   └── ner.ipynb
 │
+├── 08_Bag_of_Words/
+│   └── bow.ipynb
+│
+├── 09_TF_IDF/
+│   └── tfidf.ipynb
+│
+├── 10_N_Gram/
+│   └── ngram.ipynb
+│
+├── 11_Cosine_Similarity/
+│   └── cosine_similarity.ipynb
+│
 └── README.md
 ```
 
@@ -277,25 +362,36 @@ NLP-Unit-1-Programs/
 
 ## 🎯 Learning Objectives
 
-Through these programs, the following fundamental NLP concepts are demonstrated:
+Through these practical programs, the following NLP concepts are demonstrated:
+
+### CO1
 
 1. Sentence Tokenization
 2. Word Tokenization
 3. Stemming
 4. Lemmatization
 5. Stop-word Removal
-6. Part-of-Speech (POS) Tagging
+6. POS Tagging
 7. Parsing
 8. Chunking
-9. Named Entity Recognition (NER)
+9. Named Entity Recognition
+
+### CO2
+
+10. Bag of Words
+11. TF-IDF
+12. N-Gram Models
+13. Cosine Similarity
+14. Text Vectorization
+15. Text Similarity
 
 ---
 
 ## 🎓 Course Outcome
 
-These practical programs provide hands-on understanding of fundamental Natural Language Processing techniques and their implementation using popular Python NLP libraries.
+These practical programs provide hands-on understanding of fundamental **Natural Language Processing** techniques and their implementation using popular Python libraries.
 
-The programs demonstrate how raw text can be processed, transformed, and analyzed using different NLP techniques.
+The programs demonstrate how raw text can be **processed, transformed into numerical representations, and analyzed** using different NLP techniques.
 
 ---
 
@@ -309,4 +405,4 @@ GitHub: [Amit27181](https://github.com/Amit27181)
 
 ## 📌 Note
 
-This repository is created for academic and practical learning purposes and demonstrates basic NLP concepts using Python, NLTK, and spaCy.
+This repository is created for **academic and practical learning purposes** and demonstrates fundamental NLP concepts using Python, NLTK, spaCy, and Scikit-learn.
