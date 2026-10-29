@@ -4,15 +4,15 @@ A structured collection of **32 Natural Language Processing (NLP) practical prog
 
 This repository covers fundamental NLP techniques, text representation, machine learning, deep learning, and transformer-based applications. The programs are organized according to **Course Outcomes CO1, CO2, and CO3**, providing a practical learning path from basic text processing to advanced NLP systems.
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white](https://img.shields.io/badge/Python-3.x-3776AB?logo=python\&logoColor=white)" alt="Python">
-&#x20; \<img src="[https://img.shields.io/badge/NLTK-NLP-4CAF50](https://img.shields.io/badge/NLTK-NLP-4CAF50)" alt="NLTK">
-&#x20; \<img src="[https://img.shields.io/badge/spaCy-NLP-09A3D5](https://img.shields.io/badge/spaCy-NLP-09A3D5)" alt="spaCy">
-&#x20; \<img src="[https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white](https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn\&logoColor=white)" alt="Scikit-learn">
-&#x20; \<img src="[https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch\&logoColor=white)" alt="PyTorch">
-&#x20; \<img src="[https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black](https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?logo=huggingface\&logoColor=black)" alt="Hugging Face">
-&#x20; \<img src="[https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter\&logoColor=white)" alt="Jupyter">
-\</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/NLTK-NLP-4CAF50" alt="NLTK"/>
+  <img src="https://img.shields.io/badge/spaCy-NLP-09A3D5" alt="spaCy"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face"/>
+  <img src="https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white" alt="Jupyter"/>
+</p>
 
 ---
 
