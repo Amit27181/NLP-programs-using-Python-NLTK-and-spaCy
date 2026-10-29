@@ -1,0 +1,17 @@
+﻿question,answer
+hello,Hello! Welcome. How can I help you?
+what is natural language processing,Natural Language Processing (NLP) enables computers to understand human language.
+what is machine learning,Machine learning enables computers to learn patterns from data.
+what is deep learning,Deep learning uses multi-layer neural networks to learn complex patterns.
+what is artificial intelligence,Artificial Intelligence enables machines to perform tasks requiring human-like intelligence.
+what is python,"Python is a popular programming language used in web development, automation, data science, and AI."
+what is a chatbot,A chatbot is a program that communicates with users through text or speech.
+what is tokenization,"Tokenization divides text into smaller units called tokens, such as words or sentences."
+what is sentiment analysis,Sentiment analysis identifies opinions or emotions expressed in text.
+what is text classification,Text classification assigns text to categories based on its content.
+what is tf idf,TF-IDF measures how important a word is in a document relative to a collection of documents.
+what is word embedding,Word embeddings represent words as numerical vectors that capture semantic relationships.
+what is text summarization,Text summarization creates a shorter version of a document while preserving important information.
+thank you,You're welcome! Feel free to ask another question.
+bye,Goodbye! Have a great day.
+what is information retrieval,Information retrieval finds relevant information from a collection of documents.

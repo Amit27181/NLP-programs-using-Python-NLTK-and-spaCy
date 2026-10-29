@@ -1,0 +1,15 @@
+Artificial intelligence enables machines to perform tasks that usually require human intelligence.
+Machine learning allows computers to learn patterns from data.
+Natural language processing helps computers understand human language.
+Deep learning uses neural networks with multiple layers.
+GPT-2 is a transformer-based language model that can generate text.
+Text generation is the task of predicting and producing the next tokens in a sequence.
+Data preprocessing improves the quality of machine learning experiments.
+Python is widely used for artificial intelligence and data science.
+Language models learn statistical patterns from their training text.
+Artificial intelligence is being applied in education, healthcare, and agriculture.
+Tokenization converts text into smaller units that a model can process.
+A transformer uses attention mechanisms to process relationships between tokens.
+Machine translation converts text from one language into another.
+Text summarization produces a shorter version of a longer document.
+Chatbots use language processing techniques to respond to user questions.

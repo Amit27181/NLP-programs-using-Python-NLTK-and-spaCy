@@ -1,0 +1,16 @@
+Review_ID,Product,Review,Cleaned_Review,Positive_Score,Negative_Score,Neutral_Score,Compound_Score,Sentiment,Aspects
+1,Laptop,The laptop performance is excellent and the battery lasts long.,the laptop performance is excellent and the battery lasts long,0.291,0.0,0.709,0.5719,Positive,"Performance, Battery"
+2,Laptop,The laptop is fast but the keyboard is uncomfortable.,the laptop is fast but the keyboard is uncomfortable,0.0,0.298,0.702,-0.5267,Negative,"Performance, Comfort"
+3,Laptop,Poor build quality and very disappointing performance.,poor build quality and very disappointing performance,0.0,0.569,0.431,-0.7645,Negative,"Performance, Build Quality"
+4,Laptop,Amazing display and smooth performance.,amazing display and smooth performance,0.487,0.0,0.513,0.5859,Positive,"Performance, Display"
+5,Laptop,The laptop is expensive but worth the price.,the laptop is expensive but worth the price,0.251,0.0,0.749,0.3291,Positive,Price
+6,Phone,The phone camera is excellent and the design is beautiful.,the phone camera is excellent and the design is beautiful,0.487,0.0,0.513,0.8225,Positive,"Camera, Build Quality"
+7,Phone,Battery life is terrible and charging is very slow.,battery life is terrible and charging is very slow,0.0,0.279,0.721,-0.4767,Negative,"Performance, Battery"
+8,Phone,Good performance but the phone gets hot.,good performance but the phone gets hot,0.245,0.0,0.755,0.2382,Positive,Performance
+9,Phone,I love the display and the camera quality.,i love the display and the camera quality,0.375,0.0,0.625,0.6369,Positive,"Camera, Display"
+10,Phone,The phone is overpriced and the battery is poor.,the phone is overpriced and the battery is poor,0.0,0.279,0.721,-0.4767,Negative,"Battery, Price"
+11,Headphones,Excellent sound quality and comfortable to wear.,excellent sound quality and comfortable to wear,0.583,0.0,0.417,0.7906,Positive,"Sound, Comfort"
+12,Headphones,The headphones have poor sound and weak bass.,the headphones have poor sound and weak bass,0.0,0.5,0.5,-0.7184,Negative,Sound
+13,Headphones,Very comfortable and the audio is amazing.,very comfortable and the audio is amazing,0.597,0.0,0.403,0.8122,Positive,"Sound, Comfort"
+14,Headphones,The price is high but the noise cancellation is excellent.,the price is high but the noise cancellation is excellent,0.359,0.0,0.641,0.7227,Positive,"Price, Noise Cancellation"
+15,Headphones,Bad battery life and uncomfortable ear cushions.,bad battery life and uncomfortable ear cushions,0.0,0.55,0.45,-0.7269,Negative,"Battery, Comfort"

@@ -1,408 +1,297 @@
-# NLP Programs using Python, NLTK and spaCy
+# Natural Language Processing Programs Using Python, NLTK and spaCy
 
-A collection of practical **Natural Language Processing (NLP)** programs implemented using **Python, NLTK, spaCy, and Jupyter Notebook**.
+A structured collection of **32 Natural Language Processing (NLP) practical programs** implemented using Python, NLTK, spaCy, Scikit-learn, and Hugging Face Transformers.
 
-This repository contains practical programs covering fundamental NLP concepts from **CO1 and CO2**, including tokenization, stemming, lemmatization, stop-word removal, POS tagging, parsing, chunking, Named Entity Recognition, Bag of Words, TF-IDF, N-Grams, and Cosine Similarity.
+This repository covers fundamental NLP techniques, text representation, machine learning, deep learning, and transformer-based applications. The programs are organized according to **Course Outcomes CO1, CO2, and CO3**, providing a practical learning path from basic text processing to advanced NLP systems.
 
----
-
-## 📚 Programs Included
-
-### 🔹 CO1 – Fundamental NLP Techniques
-
-### 1. Tokenization
-
-**Folder:** `01_Tokenization`
-
-Demonstrates the process of breaking text into smaller units called tokens.
-
-**Concepts Covered:**
-
-* Sentence Tokenization
-* Word Tokenization
-
-**Technologies:**
-
-* Python
-* NLTK
-* spaCy
-
-**File:** `tokenization.ipynb`
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white](https://img.shields.io/badge/Python-3.x-3776AB?logo=python\&logoColor=white)" alt="Python">
+&#x20; \<img src="[https://img.shields.io/badge/NLTK-NLP-4CAF50](https://img.shields.io/badge/NLTK-NLP-4CAF50)" alt="NLTK">
+&#x20; \<img src="[https://img.shields.io/badge/spaCy-NLP-09A3D5](https://img.shields.io/badge/spaCy-NLP-09A3D5)" alt="spaCy">
+&#x20; \<img src="[https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white](https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn\&logoColor=white)" alt="Scikit-learn">
+&#x20; \<img src="[https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch\&logoColor=white)" alt="PyTorch">
+&#x20; \<img src="[https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black](https://img.shields.io/badge/Transformers-Hugging%20Face-FFD21E?logo=huggingface\&logoColor=black)" alt="Hugging Face">
+&#x20; \<img src="[https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter\&logoColor=white)" alt="Jupyter">
+\</p>
 
 ---
 
-### 2. Stemming and Lemmatization
+## Table of Contents
 
-**Folder:** `02_Stemming_Lemmatization`
-
-Demonstrates techniques used to obtain the base or root form of words.
-
-**Concepts Covered:**
-
-* Porter Stemming
-* WordNet Lemmatization
-* Difference between Stemming and Lemmatization
-
-**Technologies:**
-
-* Python
-* NLTK
-
-**File:** `stemming_lemmatization.ipynb`
+- [Overview](#overview)
+- [Course Outcome Distribution](#course-outcome-distribution)
+- [CO1: Fundamental NLP Techniques](#co1-fundamental-nlp-techniques)
+- [CO2: Text Representation and NLP Applications](#co2-text-representation-and-nlp-applications)
+- [CO3: Advanced NLP and Transformer Applications](#co3-advanced-nlp-and-transformer-applications)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Running the Notebooks](#running-the-notebooks)
+- [Learning Outcomes](#learning-outcomes)
+- [Repository Information](#repository-information)
+- [Author](#author)
 
 ---
 
-### 3. Stop-word Removal
+## Overview
 
-**Folder:** `03_Stopword_Removal`
+Natural Language Processing is a field of Artificial Intelligence that enables computers to process, analyze, and generate human language.
 
-Demonstrates the identification and removal of commonly occurring words that may provide limited information for certain NLP tasks.
+This repository provides hands-on implementations of important NLP algorithms and techniques through Jupyter Notebooks. It combines linguistic processing, statistical text representation, machine learning, and pretrained language models to demonstrate how NLP concepts are applied in practice.
 
-**Examples:**
+### Key Features
 
-* `the`
-* `is`
-* `a`
-* `an`
-* `and`
-* `of`
-
-**Concepts Covered:**
-
-* Word Tokenization
-* Stop-word Identification
-* Stop-word Removal
-
-**Technologies:**
-
-* Python
-* NLTK
-
-**File:** `stopword_removal.ipynb`
+- 32 practical NLP programs organized into three course outcomes.
+- Text preprocessing and linguistic analysis using NLTK and spaCy.
+- Numerical text representation using Bag of Words and TF-IDF.
+- Word embeddings and semantic similarity techniques.
+- Text classification, sentiment analysis, and topic modeling.
+- Information extraction and information retrieval.
+- Sequence modeling using RNNs and LSTMs.
+- Transformer-based classification, generation, translation, and summarization.
+- Document classification and sequence boundary detection.
 
 ---
 
-### 4. Part-of-Speech (POS) Tagging
+## Course Outcome Distribution
 
-**Folder:** `04_POS_Tagging`
-
-Assigns grammatical categories to words in a sentence.
-
-**Examples:**
-
-* Noun
-* Verb
-* Adjective
-* Adverb
-* Preposition
-* Determiner
-
-**Concepts Covered:**
-
-* Word Tokenization
-* POS Tagging
-* Grammatical Categories
-
-**Technologies:**
-
-* Python
-* NLTK
-
-**File:** `pos_tagging.ipynb`
+| Course Outcome | Program Numbers | Programs | Coverage                                              |
+| -------------- | --------------- | -------: | ----------------------------------------------------- |
+| CO1            | 01–07           |        7 | Fundamental NLP and linguistic processing             |
+| CO2            | 08–23           |       16 | Text representation, similarity, and NLP applications |
+| CO3            | 24–32           |        9 | Advanced NLP, deep learning, and transformers         |
+| **Total**      | **01–32**       |   **32** | **Complete practical collection**                     |
 
 ---
 
-### 5. Parsing and Chunking
+## CO1: Fundamental NLP Techniques
 
-**Folder:** `05_Parsing_Chunking`
+This section covers the essential operations used to preprocess text and analyze linguistic structures.
 
-Demonstrates syntactic analysis using chunking and dependency parsing.
+| No. | Program                    | Concepts                                                          |
+| --: | -------------------------- | ----------------------------------------------------------------- |
+|  01 | Tokenization               | Sentence tokenization and word tokenization                       |
+|  02 | Stemming and Lemmatization | Porter stemming, WordNet lemmatization, and word normalization    |
+|  03 | Stop-Word Removal          | Stop-word identification and text cleaning                        |
+|  04 | Part-of-Speech Tagging     | Grammatical categories and POS tags                               |
+|  05 | Parsing and Chunking       | Noun phrases, regular-expression chunking, and dependency parsing |
+|  06 | Named Entity Recognition   | Identification and classification of named entities               |
+|  07 | Coreference Resolution     | Resolving references to entities across text                      |
 
-**Concepts Covered:**
-
-* POS Tagging
-* Regular Expression Chunking
-* Noun Phrase Chunking
-* Dependency Parsing
-* Grammatical Relationships
-
-**Technologies:**
-
-* Python
-* NLTK
-* spaCy
-
-**File:** `parsing_chunking.ipynb`
+**Libraries:** Python, NLTK, spaCy
 
 ---
 
-### 6. Named Entity Recognition (NER)
+## CO2: Text Representation and NLP Applications
 
-**Folder:** `06_Named_Entity_Recognition`
+This section explores numerical representations of text, semantic relationships, traditional machine learning, and core NLP applications.
 
-Identifies and classifies named entities from text.
+| No. | Program                               | Concepts                                                         |
+| --: | ------------------------------------- | ---------------------------------------------------------------- |
+|  08 | Bag of Words (BoW)                    | Vocabulary creation, term frequency, document-term matrix        |
+|  09 | TF-IDF                                | Term frequency, inverse document frequency, weighted vectors     |
+|  10 | N-Gram Model                          | Unigrams, bigrams, trigrams, and word sequences                  |
+|  11 | Cosine Similarity                     | Vector magnitude, dot product, and document similarity           |
+|  12 | Word2Vec                              | CBOW, Skip-gram, and distributed word representations            |
+|  13 | GloVe Embeddings                      | Pretrained word vectors and semantic representations             |
+|  14 | Word Mover's Distance                 | Semantic distance between documents                              |
+|  15 | Text Classification                   | TF-IDF features, Naive Bayes, and SVM                            |
+|  16 | Sentiment Analysis                    | Sentiment polarity using TextBlob and VADER                      |
+|  17 | Topic Modeling with LDA               | Latent topics and document-topic distributions                   |
+|  18 | Topic Modeling with LSA               | Latent semantic structure and dimensionality reduction           |
+|  19 | Opinion Mining                        | Analysis of opinions and product or service reviews              |
+|  20 | Information Extraction                | Extracting structured information from text                      |
+|  21 | Information Retrieval                 | Query processing and TF-IDF document ranking                     |
+|  22 | Sequence Classification with RNN/LSTM | Sequential representations and recurrent neural networks         |
+|  23 | Attention Mechanism                   | Attention scores, context vectors, and encoder-decoder attention |
 
-**Examples of Entities:**
-
-* Person
-* Organization
-* Location
-* Date
-* Money
-* Geopolitical Entity
-
-**Concepts Covered:**
-
-* Named Entity Recognition
-* Entity Classification
-* Entity Labels
-
-**Technologies:**
-
-* Python
-* spaCy
-
-**File:** `ner.ipynb`
+**Libraries:** Python, NLTK, Scikit-learn, Gensim, NumPy, Pandas, TextBlob, VADER, PyTorch
 
 ---
 
-# 🔹 CO2 – Text Vectorization and Similarity
+## CO3: Advanced NLP and Transformer Applications
 
-### 7. Bag of Words (BoW)
+This section introduces pretrained language models, deep learning, text generation, and advanced document-processing techniques.
 
-**Folder:** `08_Bag_of_Words`
+| No. | Program                                                        | Concepts                                                                 |
+| --: | -------------------------------------------------------------- | ------------------------------------------------------------------------ |
+|  24 | BERT for Text Classification                                   | Tokenization, pretrained models, fine-tuning, evaluation                 |
+|  25 | Sentence Embeddings Using BERT and GPT-2                       | Contextual representations and semantic similarity                       |
+|  26 | Text Generation Using GPT-2                                    | Autoregressive generation and next-token prediction                      |
+|  27 | Transformer-Based Named Entity Recognition                     | Contextual representations and token classification                      |
+|  28 | Machine Translation Using MarianMT or T5                       | Sequence-to-sequence translation                                         |
+|  29 | Text Summarization Using BART                                  | Abstractive summarization and encoder-decoder models                     |
+|  30 | Transformer-Based Chatbot Using DialoGPT                       | Conversational context and response generation                           |
+|  31 | Automatic Document Classification and Separation               | TF-IDF, machine learning, and category-based organization                |
+|  32 | Hybrid Probabilistic and FSM-Based Document Boundary Detection | Probability estimation, finite state machines, and sequence segmentation |
 
-Demonstrates the Bag of Words model for converting text documents into numerical feature vectors.
-
-**Concepts Covered:**
-
-* Vocabulary Creation
-* Term Frequency
-* Document-Term Matrix
-* Text Vectorization
-
-**Technologies:**
-
-* Python
-* Scikit-learn
-
-**File:** `bow.ipynb`
+**Libraries:** Python, PyTorch, Hugging Face Transformers, Scikit-learn, BERT, GPT-2, MarianMT, BART, T5, DialoGPT
 
 ---
 
-### 8. TF-IDF
+## Technology Stack
 
-**Folder:** `09_TF_IDF`
-
-Demonstrates Term Frequency-Inverse Document Frequency (TF-IDF) for assigning importance to words in documents.
-
-**Concepts Covered:**
-
-* Term Frequency (TF)
-* Inverse Document Frequency (IDF)
-* TF-IDF Vectorization
-* Document-Term Matrix
-
-**Technologies:**
-
-* Python
-* Scikit-learn
-
-**File:** `tfidf.ipynb`
+| Technology                | Application                                                     |
+| ------------------------- | --------------------------------------------------------------- |
+| Python                    | Core programming language                                       |
+| NLTK                      | Tokenization, stemming, lemmatization, and text processing      |
+| spaCy                     | Linguistic analysis, dependency parsing, and entity recognition |
+| Scikit-learn              | Feature extraction, machine learning, and evaluation            |
+| Gensim                    | Word embeddings and topic modeling                              |
+| TextBlob and VADER        | Sentiment analysis                                              |
+| NumPy and Pandas          | Numerical computation and data handling                         |
+| PyTorch                   | Deep learning and model inference                               |
+| Hugging Face Transformers | Pretrained transformer architectures                            |
+| Jupyter Notebook          | Interactive practical implementations                           |
+| VS Code                   | Development environment                                         |
+| Git and GitHub            | Version control and project hosting                             |
 
 ---
 
-### 9. N-Gram Model
+## Installation
 
-**Folder:** `10_N_Gram`
+### Prerequisites
 
-Demonstrates N-Gram models for analyzing sequences of words in text.
+- Python 3.x
+- pip
+- Jupyter Notebook or VS Code
+- An internet connection for downloading dependencies and pretrained models
 
-**Concepts Covered:**
-
-* Unigram
-* Bigram
-* Trigram
-* N-Gram Generation
-
-**Technologies:**
-
-* Python
-* NLTK
-
-**File:** `ngram.ipynb`
-
----
-
-### 10. Cosine Similarity
-
-**Folder:** `11_Cosine_Similarity`
-
-Demonstrates cosine similarity for measuring the similarity between text documents represented as numerical vectors.
-
-**Concepts Covered:**
-
-* Vector Representation
-* Dot Product
-* Vector Magnitude
-* Cosine Similarity
-* Text Similarity
-
-**Technologies:**
-
-* Python
-* Scikit-learn
-
-**File:** `cosine_similarity.ipynb`
-
----
-
-## 🛠️ Technologies Used
-
-* Python 3
-* NLTK
-* spaCy
-* Scikit-learn
-* Jupyter Notebook
-* Natural Language Processing
-
----
-
-## ⚙️ Installation
-
-Make sure Python is installed on your system.
-
-### Install Required Libraries
+### 1. Clone the repository
 
 ```bash
-pip install nltk spacy scikit-learn
+git clone https://github.com/Amit27181/NLP-programs-using-Python-NLTK-and-spaCy.git
+cd NLP-programs-using-Python-NLTK-and-spaCy
 ```
 
-### Download the spaCy English Language Model
+### 2. Create a virtual environment
+
+**Windows PowerShell**
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+**Linux/macOS**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install the required libraries
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install nltk spacy scikit-learn pandas numpy matplotlib jupyter ipykernel gensim textblob vaderSentiment
+```
+
+For transformer-based programs, install the additional dependencies:
+
+```bash
+python -m pip install torch transformers sentencepiece
+```
+
+### 4. Download the spaCy English model
 
 ```bash
 python -m spacy download en_core_web_sm
 ```
 
-### NLTK Resources
+### 5. Download NLTK resources
 
-The required NLTK resources are downloaded by the respective notebooks.
+Run this code in a notebook when required:
 
-These may include:
+```python
+import nltk
 
-* `punkt`
-* `punkt_tab`
-* `stopwords`
-* `averaged_perceptron_tagger_eng`
-* `wordnet`
-* `omw-1.4`
+resources = [
+    "punkt",
+    "punkt_tab",
+    "stopwords",
+    "averaged_perceptron_tagger_eng",
+    "wordnet",
+    "omw-1.4"
+]
+
+for resource in resources:
+    nltk.download(resource)
+
+print("NLTK resources are ready.")
+```
+
+**Note:** Individual notebooks may require additional dependencies, datasets, or language resources. Pretrained transformer models are downloaded separately when first loaded and may require significant memory and disk space.
 
 ---
 
-## ▶️ How to Run
+## Running the Notebooks
 
-These programs are implemented as **Jupyter Notebooks (`.ipynb`)**.
+### VS Code
 
-You can run them using:
+1. Open the repository folder in VS Code.
+2. Install the Python and Jupyter extensions.
+3. Navigate to the appropriate course-outcome folder.
+4. Open the required `.ipynb` file.
+5. Select the Python interpreter and Jupyter kernel.
+6. Execute the cells sequentially.
 
-* Jupyter Notebook
-* JupyterLab
-* Google Colab
-* VS Code with the Jupyter extension
+### Jupyter Notebook
 
-### Start Jupyter Notebook
+Start Jupyter from the project directory:
 
 ```bash
 jupyter notebook
 ```
 
-Then open the required notebook and execute the cells sequentially.
+Open the required notebook in your browser and run its cells.
+
+### Google Colab
+
+Upload the required notebook, install any missing dependencies, and execute the cells in order.
 
 ---
 
-## 📂 Repository Structure
+## Learning Outcomes
 
-```text
-NLP-programs-using-Python-NLTK-and-spaCy/
-│
-├── 01_Tokenization/
-│   └── tokenization.ipynb
-│
-├── 02_Stemming_Lemmatization/
-│   └── stemming_lemmatization.ipynb
-│
-├── 03_Stopword_Removal/
-│   └── stopword_removal.ipynb
-│
-├── 04_POS_Tagging/
-│   └── pos_tagging.ipynb
-│
-├── 05_Parsing_Chunking/
-│   └── parsing_chunking.ipynb
-│
-├── 06_Named_Entity_Recognition/
-│   └── ner.ipynb
-│
-├── 08_Bag_of_Words/
-│   └── bow.ipynb
-│
-├── 09_TF_IDF/
-│   └── tfidf.ipynb
-│
-├── 10_N_Gram/
-│   └── ngram.ipynb
-│
-├── 11_Cosine_Similarity/
-│   └── cosine_similarity.ipynb
-│
-└── README.md
-```
+After completing the practical programs, learners should be able to:
+
+- Apply fundamental NLP preprocessing and linguistic analysis.
+- Transform text into statistical and distributed numerical representations.
+- Analyze document similarity and semantic relationships.
+- Build traditional machine learning models for text classification.
+- Perform sentiment analysis, opinion mining, and topic modeling.
+- Implement information extraction and document retrieval workflows.
+- Understand RNNs, LSTMs, and attention mechanisms.
+- Apply pretrained transformer models to classification, translation, summarization, and text generation.
+- Develop reproducible NLP experiments using Python and Jupyter Notebooks.
 
 ---
 
-## 🎯 Learning Objectives
+## Repository Information
 
-Through these practical programs, the following NLP concepts are demonstrated:
+**Repository:** [NLP Programs Using Python, NLTK and spaCy](https://github.com/Amit27181/NLP-programs-using-Python-NLTK-and-spaCy)
 
-### CO1
+**Course coverage:** CO1, CO2, and CO3
 
-1. Sentence Tokenization
-2. Word Tokenization
-3. Stemming
-4. Lemmatization
-5. Stop-word Removal
-6. POS Tagging
-7. Parsing
-8. Chunking
-9. Named Entity Recognition
+**Total practical programs:** 32
 
-### CO2
+**Format:** Jupyter Notebooks (`.ipynb`)
 
-10. Bag of Words
-11. TF-IDF
-12. N-Gram Models
-13. Cosine Similarity
-14. Text Vectorization
-15. Text Similarity
+**Purpose:** Academic learning, practical implementation, and NLP experimentation.
 
 ---
 
-## 🎓 Course Outcome
-
-These practical programs provide hands-on understanding of fundamental **Natural Language Processing** techniques and their implementation using popular Python libraries.
-
-The programs demonstrate how raw text can be **processed, transformed into numerical representations, and analyzed** using different NLP techniques.
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Amit Pandey**
 
-GitHub: [Amit27181](https://github.com/Amit27181)
+- GitHub: [@Amit27181](https://github.com/Amit27181)
+- Repository: [NLP Programs Using Python, NLTK and spaCy](https://github.com/Amit27181/NLP-programs-using-Python-NLTK-and-spaCy)
 
 ---
 
-## 📌 Note
-
-This repository is created for **academic and practical learning purposes** and demonstrates fundamental NLP concepts using Python, NLTK, spaCy, and Scikit-learn.
+\<p align="center">
+&#x20; \<strong>Learn. Implement. Experiment. Improve.\</strong>
+&#x20; \<br>\<br>
+&#x20; If this repository helps you learn NLP, consider giving it a star.
+\</p>
